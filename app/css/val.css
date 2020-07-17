@@ -1,0 +1,13 @@
+a#logo 
+{
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 25px;
+	width: 150px;
+	height: 38px;
+	padding: 0;
+	text-indent: -9999px;
+	background: url(https://val.vtecostudies.org/wp-content/themes/val/images/logo-large@2x.png) no-repeat;
+	background-size: 150px 38px;
+}

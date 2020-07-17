@@ -1,3 +1,7 @@
+.logo-brand > .brand-layout-control > .img-responsive {
+	  content:url("https://val.vtecostudies.org/wp-content/themes/val/images/logo-large@2x.png") !important;
+	 
+}
 
 /* Authentication menu items */
 .signedIn > li > a.signUpBtn {

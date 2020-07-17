@@ -1,26 +1,26 @@
 module.exports = {
   isDevel: true,
   inMante: false, // set to true and deploy if you want to set a maintenance message in all the services
-  enabledLangs: ['en', 'es', 'zh', 'sw'],
-  mainDomain: 'l-a.site', // used for cookies (without http/https)
-  mainLAUrl: 'https://l-a.site',
-  baseFooterUrl: 'https://l-a.site',
+  enabledLangs: ['en', 'fr', 'es' ],
+  mainDomain: 'vtatlasoflife.org', // used for cookies (without http/https)
+  mainLAUrl: 'https://vtatlasoflife.org',
+  parentUrl: 'https://val.vtecostudies.org',
+  baseFooterUrl: 'https://vtatlasoflife.org/basic-brand-2020',
   services: {
-    collectory: { url: 'https://collections.l-a.site', title: 'Collections' },
-    biocache: { url: 'https://biocache.l-a.site', title: 'Occurrence records' },
-    biocacheService: { url: 'https://biocache-ws.l-a.site', title: 'Occurrence records webservice' },
-    bie: { url: 'https://especies.gbif.es', title: 'Species' },
-    bieDis: { url: 'https://species.l-a.site', title: 'Species' },
-    regions: { url: 'https://regions.l-a.site', title: 'Regions' },
-    lists: { url: 'https://lists.l-a.site', title: 'Species List' },
-    spatial: { url: 'https://spatial.l-a.site', title: 'Spatial Portal' },
-    images: { url: 'https://images.l-a.site', title: 'Images Service' },
-    cas: { url: 'https://auth.l-a.site', title: 'CAS' }
+    collectory: { url: 'https://collectory.vtatlasoflife.org', title: 'Collections' },
+    biocache: { url: 'https://biocache.vtatlasoflife.org', title: 'Occurrence records' },
+    biocacheService: { url: 'https://biocache-ws.vtatlasoflife.org', title: 'Occurrence records webservice' },
+    bie: { url: 'https://bie.vtatlasoflife.org', title: 'Species' },
+    regions: { url: 'https://regions.vtatlasoflife.org', title: 'Regions' },
+    lists: { url: 'https://lists.vtatlasoflife.org', title: 'Species List' },
+    spatial: { url: 'https://spatial.vtatlasoflife.org', title: 'Spatial Portal' },
+    images: { url: 'https://images.vtatlasoflife.org', title: 'Images Service' },
+    cas: { url: 'https://auth.vtatlasoflife.org', title: 'CAS' }
   },
   otherLinks: [
-    { title: 'Datasets', url: 'https://collections.l-a.site/datasets' },
-    { title: 'Explore your area', url: 'http://biocache.l-a.site/explore/your-area/' },
-    { title: 'Datasets', url: 'https://collections.l-a.site/datasets' },
+    { title: 'Datasets', url: 'https://collections.vtatlasoflife.org/datasets' },
+    { title: 'Explore your area', url: 'http://biocache.vtatlasoflife.org/explore/your-area/' },
+    { title: 'Datasets', url: 'https://collections.vtatlasoflife.org/datasets' },
     { title: 'twitter', url: '', icon: 'twitter' }
   ]
 }

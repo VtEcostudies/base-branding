@@ -1,5 +1,5 @@
 {
-  "general.orgfullname": "ATLAS DE BIODIVERSIDAD DE WAKANDA",
+  "general.orgfullname": "Atlas de la Vida de Vermont",
   "nav.collectory": "Colecciones",
   "nav.biocache": "Registros",
   "nav.datasets": "Juegos de Datos",
@@ -15,7 +15,7 @@
   "nav.images": "Imágenes",
   "nav.spatial": "Portal Espacial",
   "nav.searchbox": "Buscar especies, juegos de datos y más...",
-  "index.slogan": "Datos Nacionales de Biodiversidad Libres apoyando nuestras Acciones Medioambientales",
+  "index.slogan": "Acceso abierto a los datos de biodiversidad de Vermont",
   "index.search-btn": "Buscar",
   "index.stats.occurrences": "Registros",
   "index.stats.datasets": "Juego de datos",

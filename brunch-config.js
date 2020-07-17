@@ -85,7 +85,8 @@ exports.plugins = {
       { files: toReplace, match: { find: '::logoutURL::', replace: `${settings.services.cas.url}/cas/logout` }},
       { files: toReplace, match: { find: '::searchServer::', replace: settings.services.bie.url }},
       { files: toReplace, match: { find: '::searchPath::', replace: '/search'}},
-      { files: toReplace, match: { find: '::centralServer::', replace: settings.mainLAUrl }},
+//      { files: toReplace, match: { find: '::centralServer::', replace: settings.mainLAUrl }},
+      { files: toReplace, match: { find: '::centralServer::', replace: settings.parentUrl }},
 
 
       // These other replacements are only done during build time (and are specific for this skin), so see toReplaceOthers var.
