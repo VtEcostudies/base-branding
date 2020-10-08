@@ -49,8 +49,14 @@ var loadStats = () => {
       })
     )});
   // Right now this is slow so we put here
+/* this is original method to count species
   getStats(`${biocacheService}/occurrence/facets?q=*:*&facets=species&pageSize=0`, (data) => {
     setCounter("stats_species", data[0].count);
+  });
+  */
+  //this is VCE method to count species
+  getStats(`${biocacheService}/explore/groups`, (data) => {
+    setCounter("stats_species", data[0].speciesCount);
   });
 }
 
