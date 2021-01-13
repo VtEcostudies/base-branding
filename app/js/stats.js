@@ -27,8 +27,8 @@ var setCounter = (id, val, onEnd) => {
 
 var getStats = (url, callback) => {
   if (settings.isDevel) {
-    if (url.indexOf('species') > -1) callback([{ count: 10402 }]);
-    else callback({ totalRecords: 86965283, total: 12922 });
+    if (url.indexOf('species') > -1) callback([{ count: 9999 }]);
+    else callback({ totalRecords: 9999999, total: 999 });
   } else {
     // Real call in production
     $.getJSON(url, callback);
@@ -55,8 +55,9 @@ var loadStats = () => {
   });
   */
   //this is VCE method to count species
+  console.log(`${biocacheService}/explore/groups`);
   getStats(`${biocacheService}/explore/groups`, (data) => {
-    setCounter("stats_species", data[0].speciesCount);
+	setCounter("stats_species", data[0].speciesCount);
   });
 }
 

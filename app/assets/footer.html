@@ -2,6 +2,70 @@
 
 <footer class="footer">
   <div class="container">
+<!--
+      <div class-"row">
+	<section class="living-atlas" style="background-image: url(https://val.vtecostudies.org/wp-content/uploads/2020/10/living-atlas-map-1800x700.jpg)">
+
+		<div class="content">
+
+			<h2>
+				<a href="https://val.vtecostudies.org/about/living-atlas-community/">
+					Powered by Living Atlas Software			</a>
+			</h2>
+
+			<p>VAL is a member of Living Atlases Community and a Global Biodiversity Information Infrastructure publisher.</p>
+
+			<a class="button" href="https://val.vtecostudies.org/about/living-atlas-community/">
+				More about Living Atlases		</a>
+
+		</div>
+
+		<span class="overlay"></span>
+
+	</section>
+     </div>
+-->
+    <div class="row">
+	<div class="footer-partners">
+
+		<h5>Vermont Atlas of Life Partners</h5>
+
+		<div class="footer-partners-logos">
+
+		
+			<a href="https://www.ala.org.au" target="_blank">
+
+				<img src="https://val.vtecostudies.org/wp-content/uploads/2020/10/ALA_Logo_Stacked_RGB-250x94.png" alt="" />
+			</a>
+
+		
+			<a href="https://www.gbif.org" target="_blank">
+
+				<img src="https://val.vtecostudies.org/wp-content/uploads/2020/10/Global-Biodiversity-Information-Facility-GBIF-Logo-250x113.png" alt="" />
+			</a>
+
+		
+			<a href="https://ebird.org/vt/home" target="_blank">
+
+				<img src="https://val.vtecostudies.org/wp-content/uploads/2020/10/eBird-250x102.jpg" alt="" />
+			</a>
+
+		
+			<a href="https://www.inaturalist.org" target="_blank">
+
+				<img src="https://val.vtecostudies.org/wp-content/uploads/2020/10/1419-original-1024x188-1-250x46.png" alt="" />
+			</a>
+
+		
+			<a href="https://espacepourlavie.ca/en" target="_blank">
+
+				<img src="https://val.vtecostudies.org/wp-content/uploads/2020/10/logo-eplv-250x110.jpg" alt="" />
+			</a>
+		
+		</div>
+
+	</div>
+    </div>
     <div class="row">
       <div class="col-12 col-md">
         <small class="text-muted">&copy; 2020 </small><small class="text-muted" data-i18n="general.orgfullname"></small>
@@ -10,5 +74,13 @@
   </div>
 </footer>
 <!-- End footer -->
+<!-- add a hack to fix breadcrumb.. -->
 <script type="text/javascript">
+	var bc = document.getElementById("breadcrumb");
+	for (var i = 0; i < bc.length; i++) {
+		if (bc[i].content == "Home") {
+   			bc[i].setAttribute("href", "https://val.vtecostudies.org/data-explorer");
+		}
+	}
 </script>
+

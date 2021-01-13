@@ -22,3 +22,29 @@ a#logo
 	border-color: #176f75;
 	background-color: #176f75;
 }
+
+.btn-primary:hover, .btn-primary:active {
+	background-color: #22a1aa;
+}
+
+.pagination > li > a,
+a 
+{
+	color: #176f75;
+}
+
+a:hover, a:active {
+	color: #22a1aa;
+}
+
+
+/* from https://val.vtecostudies.org/wp-content/themes/val/style.css */
+/*
+.footer-partners {
+    margin: 0 0 30px 0;
+    padding: 40px 0 0 0;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #e7ebeb;
+}
+*/
