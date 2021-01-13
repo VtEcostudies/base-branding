@@ -19,7 +19,7 @@ module.exports = {
   },
   otherLinks: [
     { title: 'Datasets', url: 'https://collections.vtatlasoflife.org/datasets' },
-    { title: 'Explore your area', url: 'http://biocache.vtatlasoflife.org/explore/your-area/' },
+    { title: 'Explore your area', url: 'https://biocache.vtatlasoflife.org/explore/your-area/' },
     { title: 'Datasets', url: 'https://collections.vtatlasoflife.org/datasets' },
     { title: 'twitter', url: '', icon: 'twitter' }
   ]
