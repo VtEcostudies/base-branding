@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+  <meta charset="UTF-8"/>
+  HEADLOCAL_HERE
+  HEAD_HERE
+</head>
+<body>
+BANNER_HERE
+<section id="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb-list">
+                <li><a href="/">Home</a></li>
+                <li class="active">Indigenous People Acknowlegement</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<div id="INDIGENOUS_ACKNOWLEDGEMENT" class="container">
+    <section class="content-container">
+        <div class="row">
+            <article class="col-md-12 header-wrap margin-bottom-half-1">
+              <h2 class="subject-title">Vermont Atlas of Life Indigenous Peoples and Land Acknowledgement</h2>
+            </article>
+
+            <article class="col-md-12" id="alaEditable">
+                <!-- Start editable content -->
+                <div class="col-md-3 col-md-push-9 sidebar-col" id="toc-wrapper">
+                    <div id="toc_container" class="no_bullets toc-floating-menu affix-bottom" data-spy="affix"
+                         data-offset-top="300"
+                         style="width: 245px; top: -264.5px;"><h4>Additional Links:</h4>
+                        <div class="profile-usermenu margin-bottom-2">
+                            <ul class="toc_list nav">
+                                <li><a href="#introduction">Introduction</a></li>
+                                <li><a href="#recognition">Recognition</a></li>
+                                <li><a href="#land_acknowldgement">Land Acknowlegement</a></li>
+                                <li><a href="#bands_tribes">Regional Bands and Tribes</a></li>
+                                <li><a href="#community">Community</a></li>
+                                <li><a href="#link">Explore</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="alaInnerEditable" class="col-md-8 col-md-pull-3" style="padding-left: 0px;">
+		    <h4 id="intro">
+			<span id="introduction">Introduction</span></h4>
+                    	<p>
+			The primary goal of the Vermont Atlas of Life is to make publicly available an exhaustive record of the biodiversity within the borders 
+			of our state. As we embark on this effort, we feel an urgent need to recognize the entire human history of this region, and most importantly, 
+			that history which white European colonists have ignored to this day: the history and knowledge of Indigenous People in Vermont.
+			</p>
+                    <h4 id="recog">
+			<span id="recognition">Recognition</span></h4>
+                    	<p>
+			The land we identify as the State of Vermont is the traditional and unceded territory of the Abenaki people and the 
+			<a href="https://en.wikipedia.org/wiki/Wabanaki_Confederacy">Wabenaki Confederacy</a>. 
+			Since ancient times, the Abenaki have been here, are still here, and will always live here. We pay our respects to them, and to the wisdom 
+			of their elders and their culture. We recognize that this is their land.
+			</p>
+                    <h4 id="land">
+			<span id="land_acknowledgement">Land Acknowledgement</span></h4>
+                    	<p>
+			The Vermont Center for Ecostudies is located on the western bank of the Kwanitekw (Connecticut River) in N’dakinna (Our Land) 
+			in the ancient Abenaki Nation homeland which includes Vermont, New Hampshire, northern Massachusetts, western Maine, and southern Quebec.
+			</p>
+                    <h4 id="land">
+			<span id="bands_tribes">Regional Bands and Tribes</span></h4>
+			<p>
+			We <u>acknowledge</u> these distinct tribes and bands that reside within the lands studied by the Vermont Atlas of Life:
+			</p>
+			<ul>
+			<li>The Koasek Traditional Band of the Koas Abenaki Nation is centered in Thetford and the surrounding area.</li>
+			<li>The <a href="https://en.wikipedia.org/wiki/Missiquoi">Abenaki Nation at Missisquoi</a> is in northwest Vermont.</li>
+			<li>The Nulhegan Band of the Coosuk-Abenaki is in northeast Vermont.</li>
+			<li>The Elnu Abenaki Tribe is in southeast Vermont. This is the northern extent of their territory which extends into Massachusetts.</li>
+			<li>The Mohicans <a href="https://native-land.ca/maps/territories/mohican/">extend into southwest Vermont from eastern New York and Massachusetts</a>, 
+			where they border on the Abenaki Nation to the north and east.</li>
+			</ul>
+			<p>
+                    <h4 id="comm">
+			<span id="community">Community</span></h4>
+			<p>
+			The Vermont Atlas of Life is a work in progress. Our hope and intent is that this project will continuously incorporate our evolving understanding 
+			of the natural world and its history. We hope that, in gathering all that is known, we will include historical and present-day indigenous 
+			knowledge of plants, animals and places, especially their names.
+			</p>
+			<p>
+			We wish to bring all of Vermont’s communities together in this effort–to share, learn, and take stock of who we are, what lives here, and the 
+			interrelationships of all living things in our state. We welcome and encourage your input–your knowledge, your ideas, your eyes, and your ears. 
+			Please join us!
+			</p>
+                    <h4 id="link">
+			<span id="links">Explore Further</span></h4>
+			<ul>
+			<li><a href="https://en.wikipedia.org/wiki/Abenaki">Abenaki</a> <a href="https://native-land.ca/maps/territories/abenaki-abenaquis/">maps</a></li>
+			<li><a href="https://www.abenakination.com/">Missisquoi</a></li>
+			<li><a href="https://abenakitribe.org/">Nulhegan</a></li>
+			<li><a href="">Wabenaki Confederacy</a></li>
+			</ul>
+		</div>
+                <!-- End editable content -->
+            </article>
+        </div>
+    </section>
+</div>
+FOOTER_HERE
+</body>
+</html>

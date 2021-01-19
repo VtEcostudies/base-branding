@@ -21,7 +21,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="list-group">
             <a href="::biocacheURL::" class="list-group-item">
               <h4 class="list-group-item-heading" data-i18n="index.stats.occurrences"></h4>
@@ -35,7 +35,14 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6">
+
+        <div class="col-md-4"> <!-- taxa roulette wheel from Georg Neubauer -->
+		<div id="div_spinID" onmouseover="" style="cursor: pointer; width: fit-content">
+		    <img title="Taxa Wheel by Georg Neubauer - Austria" onclick="func_proc()" id="animation" src="https://vtatlasoflife.org/basic-brand-2020/images/spinthewheel_draft-007.gif" style="height: 300px; width: 300px;max-height:310px; max-width:310px; margin:10px 10px 10px 10px;"/>
+		</div> <!-- end taxa wheel -->
+	</div>
+
+        <div class="col-md-4">
           <div class="list-group">
             <a href="::collectoryURL::" class="list-group-item">
               <h4 class="list-group-item-heading" data-i18n="index.stats.institutions"></h4>
@@ -66,5 +73,39 @@
     </div>
     FOOTER_HERE
     <!-- TODO maybe move this to footer  -->
+	<script type="application/javascript">
+	func_proc = function() {
+		document.getElementById("animation").src="https://vtatlasoflife.org/basic-brand-2020/images/spinthewheel_test1.gif";
+		setTimeout(function() {
+			var rnd = Math.floor((Math.random() * 5000000) + 1000000);
+			var URL="https://biocache-ws.biodiversityatlas.at/occurrences/taxon/" + rnd;
+			for(var it_0 = 0; it_0 <= 600; it_0++) {
+			    if(func_rnd(URL, rnd) === 1) {
+				break;
+			    } else {
+				rnd = Math.floor((Math.random() * 5000000) + 1000000);
+				URL = "https://biocache-ws.vtatlasoflife.org/occurrences/taxon/" + rnd;
+			    }
+			}
+		},1500);
+	    }
+	func_rnd = function(URL, rnd) {
+		$.ajax({
+		    url: URL,
+		    type: 'GET',
+		    success: function (resp) {
+		       if (resp["totalRecords"] > 0) {
+			    location.href = "https://bie.vtatlasoflife.org/species/" + rnd;
+			    return 1;
+			} else {
+			    return 0;
+			}
+		    },
+		    error: function(e) {
+			//alert('Error: '+e);
+		    }
+		});
+	}
+	</script>
   </body>
 </html>

@@ -12,11 +12,6 @@ a#logo
 	background-size: 150px 38px;
 }
 
-.list-group-item-heading {
-	color: purple;
-	/*background-color: purple;*/
-}
-
 /* VCE styles */
 .btn-primary {
 	border-color: #176f75;
@@ -27,9 +22,7 @@ a#logo
 	background-color: #22a1aa;
 }
 
-.pagination > li > a,
-a 
-{
+.pagination > li > a, a {
 	color: #176f75;
 }
 
@@ -38,13 +31,63 @@ a:hover, a:active {
 }
 
 
-/* from https://val.vtecostudies.org/wp-content/themes/val/style.css */
-/*
-.footer-partners {
-    margin: 0 0 30px 0;
-    padding: 40px 0 0 0;
-    text-align: center;
-    background: #fff;
-    border-top: 1px solid #e7ebeb;
+/* search style is mangled by VCE footer styles (below). fix here. */
+#search {
+	border-radius: 3px 0px 0px 3px;
 }
+
+.footer {
+	background: transparent;
+}
+
+#main_biosearch_label > div > input {
+	border-radius: 0px 3px 3px 0px;
+}
+
+
+/* 
+styles from https://val.vtecostudies.org/wp-content/themes/val/style.css 
+
+applied to footer for partners and contained objects mangled by footer styles
 */
+
+.footer-partners {
+	margin: 0 0 30px 0;
+	padding: 40px 0 0 0;
+	text-align: center;
+	background: #fff;
+	border-top: 1px solid #e7ebeb;
+}
+
+.footer-partners h5 {
+	margin: 0 0 40px 0;
+	font-weight: 500;
+	font-size: 1.15em;
+	text-transform: uppercase;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.footer-partners .footer-partners-logos a img {
+	width: 160px;
+	padding: 15px;
+	height: 80px;
+}
+
+/*
+ Note to self: css selector can only be tag (ie. 'img') or class (ie. '.square'). Nothing else works:
+	- .footer-partners .footer-partners-logos a img .square FAILS
+	- .footer-partners .footer-partners-logos a .square img FAILS
+ 
+ Also: changes to css of this sort do not auto-update with brunch watch -s. To see updates, you have to 
+	- stop/start brunch
+	- reload web page (F5)
+ */
+.footer-partners .footer-partners-logos a .square {
+	width: 80px;
+	height: 80px;
+}
+
+.footer-partners .footer-partners-logos a .iNat {
+	width: 200px;
+}
+

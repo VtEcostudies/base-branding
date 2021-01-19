@@ -8,6 +8,8 @@ const settings = require('./app/js/settings.js');
 const toReplace = [/index\.html$/,      // index can be used as your main LA page
                    /errorPage\.html/,   // An error page that can be used in your infrastructure
                    /testPage\.html$/,   // testPate is just for text some headings, buttons, etc
+                   /indAck\.html$/,   // indAck is just for text some headings, buttons, etc
+           	   /termsOfUse\.html$/,   // terms of use
                    /testSmall\.html$/]; // testSmall is for test the footer with small contents
 
 const toReplaceOthers = [/banner\.html$/,
@@ -15,6 +17,8 @@ const toReplaceOthers = [/banner\.html$/,
                          /index\.html$/,      // index can be used as your main LA page
                          /errorPage\.html/,   // An error page that can be used in your infrastructure
                          /testPage\.html$/,   // testPate is just for text some headings, buttons, etc
+                   	 /indAck\.html$/,   // indAck is indigenous acknowlegement
+                   	 /termsOfUse\.html$/,   // terms of use
                          /testSmall\.html$/]; // testSmall is for test the footer with small contents
 
 // Don't add head.html above because this replacement is done by ala-boostrap
