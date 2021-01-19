@@ -25,7 +25,7 @@ var loginStatusInIndex = () => {
       $("#dropdown-auth-menu").removeClass("::loginStatus::").addClass("signedIn");
     } else {
       if (settings.isDevel) console.log("No auth cookie not present so not-logged in");
-      $("#dropdown-auth-menu").removeClass("::loginStatus::").addClass("signedOut");
+      $("#drawer-nav-menu").removeClass("::loginStatus::").addClass("signedOut");
     }
   }
   else {
