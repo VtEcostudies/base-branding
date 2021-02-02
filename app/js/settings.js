@@ -10,6 +10,9 @@ module.exports = {
     collectory: { url: 'https://collectory.vtatlasoflife.org', title: 'Collections' },
     biocache: { url: 'https://biocache.vtatlasoflife.org', title: 'Occurrence records' },
     biocacheService: { url: 'https://biocache-ws.vtatlasoflife.org', title: 'Occurrence records webservice' },
+    // This bieService var is used by the search autocomplete. With your BIE
+    // service running and well indexed, you can put here your url
+    bieService: { url: 'https://bie-ws.vtatlasoflife.org', title: 'Species webservice' },
     bie: { url: 'https://bie.vtatlasoflife.org', title: 'Species' },
     regions: { url: 'https://regions.vtatlasoflife.org', title: 'Regions' },
     lists: { url: 'https://lists.vtatlasoflife.org', title: 'Species List' },
